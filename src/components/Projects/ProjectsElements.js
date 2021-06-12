@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
-    height: 1000px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@ export const ProjectsWrapper = styled.div`
     grid-template-rows: auto;
     align-items: center;
     grid-gap: 16px;
-    padding: 0 50px;
+    padding: 0 20px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -50,6 +50,18 @@ export const ProjectsCard = styled.div`
     transition: all 0.2s ease-in-out;
     margin-bottom: 10px;
     text-decoration: none;
+    overflow: auto;
+
+    @media screen and (max-width: 1300px) {
+        padding: 30px 20px;
+        max-height: 400px;
+        overflow: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 7px 15px;
+        max-height: 220px;
+    }
 
     &:hover {
         transform: scale(1.02);

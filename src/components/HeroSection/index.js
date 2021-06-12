@@ -26,7 +26,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Amuleek Simak</HeroH1>
-                <HeroP>Software Developer</HeroP>
+                <HeroP>Software Engineer</HeroP>
                 <HeroBtnWrapper>
                     <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                         Contact me {hover ? <ArrowForward/> : <ArrowRight/>}
