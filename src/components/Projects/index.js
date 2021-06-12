@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Icon1 from '../../images/icon1.svg'
 import Icon2 from '../../images/icon2.svg'
 import Icon3 from '../../images/icon3.png'
@@ -9,9 +8,7 @@ import {
     ProjectsWrapper,
     ProjectsCard,
     ProjectsIcon,
-    ProjectsH2,
-    ProjectsP,
-    ProjectsH2Wrapper
+    ProjectsP
 } from './ProjectsElements';
 
 const Projects = () => {
