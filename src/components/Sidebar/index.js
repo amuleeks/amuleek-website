@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from "../../resources/Resume.pdf"
 import {
     SidebarContainer, 
     Icon, 
