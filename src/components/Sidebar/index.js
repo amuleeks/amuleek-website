@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink> 
                     <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink> 
                 </SidebarMenu>
-                <a href="https://drive.google.com/file/d/1zTsk6fwcBZj0OwkIjKPsuZg8B585iG9z/view?usp=sharing" style={{textDecoration: 'none', color: '#220504'}}>
+                <a href={Resume} target="_blank" rel='noopener noreferrer' style={{textDecoration: 'none', color: '#220504'}}>
                     <SideBtnWrap>
                         <SidebarRoute>Resume</SidebarRoute>
                     </SideBtnWrap>
